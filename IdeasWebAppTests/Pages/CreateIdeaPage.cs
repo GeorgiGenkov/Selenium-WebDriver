@@ -4,6 +4,7 @@ using OpenQA.Selenium.Internal;
 
 namespace IdeasWebAppTests.Pages
 {
+	// Provides a quick way to create an "Idea" and check if the input has been incorrect
 	public class CreateIdeaPage : BasePage
 	{
 		public static readonly string CreateIdeaUrl = BaseUrl + "/Ideas/Create";

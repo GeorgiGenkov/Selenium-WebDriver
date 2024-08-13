@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 
 namespace IdeasWebAppTests.Pages
 {
+	// Provides an access to the input fields of the "Create Idea" form and it's submit button
 	public class IdeaEditPage : BasePage
 	{
 		public static readonly string CreateIdeaUrl = BaseUrl + "/Ideas/Create";

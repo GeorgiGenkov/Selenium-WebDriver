@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 
 namespace IdeasWebAppTests.Pages
 {
+	// Prodives an access to the "Title" and "Description" of the already existing "Idea"
 	public class IdeaReadPage : BasePage
 	{
         public readonly string ideaReadUrl = BaseUrl + "/Ideas/Read";

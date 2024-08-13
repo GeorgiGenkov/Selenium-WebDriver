@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 
 namespace IdeasWebAppTests.Pages
 {
+	// Provides an access to the existing "Ideas" on the currently logged account and quick access to the lastly created "Idea"
 	public class MyIdeasPage : BasePage
 	{
 		public readonly string IdeasUrl = BaseUrl + "/Ideas/MyIdeas";

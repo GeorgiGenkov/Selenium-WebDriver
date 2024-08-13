@@ -2,6 +2,7 @@
 
 namespace IdeasWebAppTests.Pages
 {
+	// Provides quick "Login" into the web app
 	public class LoginPage : BasePage
 	{
         public static readonly string LoginUrl = BaseUrl + "/Users/Login";

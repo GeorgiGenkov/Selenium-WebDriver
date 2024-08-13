@@ -4,6 +4,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace IdeasWebAppTests.Pages
 {
+	// Provides quick and easy access to the most used components of the web app as a base for the PoM pattern classes
 	public class BasePage
 	{
 		protected IWebDriver driver;
